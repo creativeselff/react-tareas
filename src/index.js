@@ -1,16 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { PasswordInput } from './components/PasswordInput.js';
-import { MatchNombre } from './components/MatchNombre.js';
 import './styles.css'
 
 
 
 ReactDOM.render(
     <div>
-        <MatchNombre
-            name='fede'
-        />
+
         <PasswordInput
             password='123'
         />
