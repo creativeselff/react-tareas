@@ -9,7 +9,6 @@ ReactDOM.render(
     <div>
 
         <PasswordInput
-            password='123'
         />
     </div>
     , document.getElementById('react-app'));
