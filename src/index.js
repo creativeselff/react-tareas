@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import { CheckBoxComp } from './components/CheckBox.js'
-import { PasswordInput } from './components/PasswordInput'
+import { CheckBoxComp } from './components/CheckBox.js'
 
 import './styles.css'
 
@@ -9,9 +8,7 @@ import './styles.css'
 
 ReactDOM.render(
     <div>
-        <PasswordInput
-
-            minLength='10'
+        <CheckBoxComp
         />
     </div>
     , document.getElementById('react-app'));
